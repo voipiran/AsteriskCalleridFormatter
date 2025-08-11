@@ -18,7 +18,7 @@ curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalle
 #2. Change the Trunk incoming context to   context=to-cidformatter
 
 ## 2. در تعریف ترانک ورودی شهری خود 
-##کانتکس پیش فرض رابه context=to-cidformatter تغییر دهد.
+## کانتکس پیش فرض رابه context=to-cidformatter تغییر دهد.
 
 ## Give a Star! ⭐ یک ستاره با ما بدهید
 If you like this project or plan to use it in the future, please give it a star. Thanks 🙏
