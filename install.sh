@@ -41,8 +41,7 @@ LINE="[from-internal-custom]"
 
 sleep 1
 fi
-echo "INFO: SourceGuardian Files have Moved Sucsessfully"
-sleep 1
+
 
 #NumberFormater
 echo "" >> /etc/asterisk/extensions_custom.conf
