@@ -11,7 +11,7 @@ Caller number correction, suitable for local landlines in Iran: Sometimes, incom
 
 ## 1. دستور زیر را بر روی کنسول لینوکس ایزابل خود اجرا کنید.
 ```
-curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalleridFormatter/archive/master.zip && unzip IssabelCalleridFormatter.zip && cd IssabelCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
+curl -L -o IssabelCalleridFormatter.zip https://github.com/voipiran/IssabelCalleridFormatter/archive/master.zip && unzip IssabelCalleridFormatter.zip && cd AsteriskCalleridFormatter-main && chmod 755 install.sh && ./install.sh -y
 ```
 
 
