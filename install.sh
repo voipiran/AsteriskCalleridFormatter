@@ -1,5 +1,25 @@
 #!/bin/bash
 
+clear
+# Colorize output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+CYAN='\033[0;36m'
+MAGENTA='\033[1;35m'
+BOLD='\033[1m'
+NC='\033[0m' # No color
+echo -e "${MAGENTA}###############################################################${NC}"
+echo -e "${CYAN}██╗   ██╗ ██████╗ ██╗██████╗ ██╗██████╗  █████╗ ███╗   ██╗${NC}"
+echo -e "${CYAN}██║   ██║██╔═══██╗██║██╔══██╗██║██╔══██╗██╔══██╗████╗  ██║${NC}"
+echo -e "${CYAN}██║   ██║██║   ██║██║██████╔╝██║██████╔╝███████║██╔██╗ ██║${NC}"
+echo -e "${CYAN}╚██╗ ██╔╝██║   ██║██║██╔═══╝ ██║██╔══██╗██╔══██║██║╚██╗██║${NC}"
+echo -e "${CYAN} ╚████╔╝ ╚██████╔╝██║██║     ██║██║  ██║██║  ██║██║ ╚████║${NC}"
+echo -e "${CYAN}  ╚═══╝   ╚═════╝ ╚═╝╚═╝     ╚═╝╚══╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝${NC}"
+echo -e "${MAGENTA}###############################################################${NC}"
+echo -e "${MAGENTA}                    https://voipiran.io                    ${NC}"
+echo -e "${MAGENTA}###############################################################${NC}"
+
 echo "Install VOIPIRAN CallerID Formatter"
 echo "VOIPIRAN.io"
 echo "VOIPIRAN Panel 1.0"
@@ -11,18 +31,7 @@ filesPath=voipiran
 ####Fetch DB root PASSWORD
 rootpw=$(sed -ne 's/.*mysqlrootpwd=//gp' /etc/issabel.conf)
 
-####Install Source Gaurdian Files
-echo "------------START-----------------"
-# Get PHP version
-php_version=$(php -r "echo PHP_MAJOR_VERSION;")
 
-# Perform actions based on PHP version
-if [ "$php_version" -eq 5 ]; then
-    echo "PHP 5 detected. Performing action A."
-
-sleep 1
-else
-    echo "PHP 7 (or newer) detected. Performing action B."
 
 ####Add from-internal-custom
 # File to check
